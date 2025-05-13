@@ -55,7 +55,7 @@ p {
 }
 
 footer {
-    margin: 15px;
-    border-top: 1px solid black;
+    margin-top: 15px;
+    border-top: 3px solid black;
     text-align: center;
 }
