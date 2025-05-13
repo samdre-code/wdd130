@@ -15,8 +15,8 @@ h1 {
 
 img {
     width: 150px;
-    height: auto;
     margin: 2px;
+    height: auto;
     border: 2px solid black;
     padding: 2px;
     box-shadow: 0 0 30PX gray;
@@ -37,7 +37,6 @@ aside {
     padding: 1rem;
     background-color: #e8e1e1;
     color: rgb(72, 11, 11);
-    text-align: center;
 }
 
 aside img {
