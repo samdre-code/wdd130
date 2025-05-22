@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* https://coolors.co/007acc-ff6600-ffcc00-f5f5f5-333333 */
+
+/* ===== Site Color Palette ===== */
+:root {
+    --primary-color: #007acc;
+    /* River Blue */
+    --accent-color: #ff6600;
+    /* Raft Orange */
+    --highlight-color: #ffcc00;
+    /* Safety Yellow */
+    --background-color: #f5f5f5;
+    /* Soft Gray */
+    --text-color: #333333;
+    /* Charcoal */
+}
+
+
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Body Font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic structure */
+body {
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+
+
+header img {
+    max-width: 100%;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #004d66;
+    gap: 15px; /* clean way to space links */
+    padding: 1rem 0;
+    margin: 0 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.cta-buttons a {
+    margin: 10px;
+    padding: 0.75rem 1.5rem;
+    background-color: #6e9d74;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    margin-top: 2rem;
+}
+
+
+/* .button {
+  background-color: var(--accent-color);
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+   */
+
+
+  /* nav a:hover {
+      background-color: var(--accent-color);
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  } */
