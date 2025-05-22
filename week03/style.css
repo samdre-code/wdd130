@@ -4,18 +4,17 @@
 
 /* ===== Site Color Palette ===== */
 :root {
-    --primary-color: #007acc;
-    /* River Blue */
-    --accent-color: #ff6600;
-    /* Raft Orange */
-    --highlight-color: #ffcc00;
-    /* Safety Yellow */
-    --background-color: #f5f5f5;
-    /* Soft Gray */
-    --text-color: #333333;
-    /* Charcoal */
-}
+  /* Core Brand Colors */
+  --primary-color:   #007acc; /* River Blue */
 
+  /* Accent Colors */
+  --accent1-color:   #ff6600; /* Raft Orange */
+  --accent2-color:   #ffcc00; /* Safety Yellow */
+
+  /* Utility Colors */
+  --background-color: #f5f5f5; /* Soft Gray */
+  --text-color:       #333333; /* Charcoal */
+}
 
 /* Headings Font */
 h1, h2, h3, h4, h5, h6 {
