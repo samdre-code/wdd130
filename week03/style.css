@@ -4,20 +4,27 @@
 
 /* ===== Site Color Palette ===== */
 :root {
-  /* Core Brand Colors */
-  --primary-color:   #007acc; /* River Blue */
+    /* Core Brand Colors */
+    --primary-color: #007acc;
+    /* River Blue */
 
-  /* Accent Colors */
-  --accent1-color:   #ff6600; /* Raft Orange */
-  --accent2-color:   #ffcc00; /* Safety Yellow */
+    /* Accent Colors */
+    --accent1-color: #ff6600;
+    /* Raft Orange */
+    --accent2-color: #ffcc00;
+    /* Safety Yellow */
 
-  /* Utility Colors */
-  --background-color: #f5f5f5; /* Soft Gray */
-  --text-color:       #333333; /* Charcoal */
+    /* Utility Colors */
+    --background-color: #f5f5f5;
+    /* Soft Gray */
+    --text-color: #333333;
+    /* Charcoal */
 }
 
 /* Headings Font */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -45,7 +52,6 @@ header {
     padding: 4rem 2rem;
     background-color: var(--primary-color);
     color: white;
-
 }
 
 
@@ -59,7 +65,8 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #004d66;
-    gap: 15px; /* clean way to space links */
+    gap: 15px;
+    /* clean way to space links */
     padding: 1rem 0;
     margin: 0 15px;
 }
@@ -95,21 +102,21 @@ footer {
 }
 
 
-/* .button {
-  background-color: var(--accent-color);
-  padding: 0.75em 1.5em;
-  border: none;
-  border-radius: 8px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  }
-   */
+.button {
+    background-color: var(--accent-color);
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 
-  /* nav a:hover {
-      background-color: var(--accent-color);
-      color: white;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-  } */
+
+nav a:hover {
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
