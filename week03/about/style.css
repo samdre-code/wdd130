@@ -1,4 +1,6 @@
-/* style.css */
+h1, h2{font-family: "Roboto", sans-serif;
+  font-style: normal;}
+
 html, body {
   height: 50%;
   margin: 0;
@@ -13,11 +15,10 @@ main {
 
 /* Coolors palette */
 :root {
-  --primary-color:    #007acc; /* River Blue */
-  --secondary-color:  #333333; /* Dark Charcoal */
-  --accent-color:     #ff6600; /* Raft Orange */
-  --background-color: #f5f5f5; /* Soft Gray */
-  --text-color:       #333333; /* Charcoal */
+  --primary-color:   #f5f5f5; /* smoke white */
+  --second-color:    #000000; /* black */
+  --accent1-color:   #ff6600; /* Pumpkin*/
+  --accent2-color:   #ffcc00; /* Jonquil*/
 }
 
 /* Global reset & body */
@@ -26,7 +27,7 @@ main {
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: var(--background-color);
+  background: var(--primary-color);
   color: var(--text-color);
   line-height: 1.5;
 }
@@ -36,16 +37,13 @@ header {
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
-  background: var(--primary-color);
+  background: #3ee8c1;
 }
-.logo {
-  height: 50px; /* logo size */
-}
-nav {
-  margin-left: auto; /* pushes nav right */
-}
-.nav-link {
-  color: white;
+.logo {height: 50px;} /* logo size */
+
+nav {margin-left: auto;} /* pushes nav right */
+
+.nav-link {color: white;
   text-decoration: none;
   margin-left: 1.5rem; /* space between links */
   font-weight: bold;
@@ -116,11 +114,12 @@ nav {
 
 /* FOOTER */
 footer {
-  background: var(--primary-color);
+  background: #3ee8c1;
   color: white;
   text-align: center;
   padding: 1rem;
 }
+
 footer p {
   margin-bottom: 0.5rem;
 }
