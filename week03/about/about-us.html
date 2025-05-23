@@ -1,75 +1,80 @@
+<!-- about.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us – White Nile Rafting</title>
-
-  <!-- SEO & Social Meta -->
-  <meta name="description" content="Learn about White Nile Rafting Limited: our history, mission, and adventure offerings." />
-  <meta property="og:title" content="About Us – White Nile Rafting" />
-  <meta property="og:description" content="Learn about White Nile Rafting Limited: our history, mission, and adventure offerings." />
-  <meta property="og:image" content="images/rafting-hero.jpg" />
-
+  <title>About Us – Nile White Limited</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
-
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="images/crossedoars.png"
-    alt="White Nile Rafting Logo"
-    />
 
-    <img src="images/rafting.jpeg" alt=""/>
-    
+  <!-- HEADER: logo and navigation -->
+  <header>
+    <!-- Logo: links back to home -->
+    <a href="index.html" class="logo-link">
+      <img src="images/crossedoars.png" alt="Company Logo" class="logo">
+    </a>
+    <!-- Nav: four links -->
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html" class="active">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About Us</a>
+      <a href="trips.html" class="nav-link">Trips</a>
+      <a href="contact.html" class="nav-link">Contact Us</a>
     </nav>
   </header>
 
+  <!-- MAIN: hero + two sections + features -->
   <main>
-    <!-- Hero Section -->
+
+    <!-- HERO: full-width banner with overlay text & button -->
     <div class="hero">
-      <img src="images/rafting-hero.jpg" alt="Group rafting down rapids">
-      <h1>White Nile Rafting Limited</h1>
-      <article>
-        <img src="images/guide-with-rafters.jpg" alt="Rafting guide with group">
-        <p>Experience heart-pounding river runs with our certified guides. Adventure awaits—join us today!</p>
-      </article>
+      <img src="images/rafting-hero.jpeg" alt="People rafting together through whitewater rapids, paddling and enjoying the adventure." class="hero-bg">
+      <h1 class="hero-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, beataeLorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+      <a href="trips.html" class="cta-button">Book with Us</a>
     </div>
 
-    <!-- History Section -->
-    <section id="history">
-      <h2>History</h2>
-      <p>Founded in 2010, White Nile Rafting has grown from a small operation to the leading whitewater adventure company in Uganda, dedicated to safety and unforgettable experiences.</p>
+    <!-- FEATURES: three columns with images + captions -->
+     <h2 class="adventure-heading">Adventure Awaits You</h2>
+    <section class="features">
+
+        <div class="feature">
+        <img src="images/adventure1.jpg" alt="Group of people rafting together through whitewater rapids, paddling and enjoying the adventure." class="feature-img">
+        <p class="feature-caption">Experience the thrill of a lifetime</p>
+        </div>
+        <div class="feature">
+        <img src="images/adventure2.jpg" alt="Group of people rafting together through whitewater rapids, paddling and enjoying the adventure." class="feature-img">
+        <p class="feature-caption">Join us on the ultimate adventure</p>
+        </div>
+        <div class="feature">
+        <img src="images/adventure3.jpg" alt="Group of people rafting together through whitewater rapids, paddling and enjoying the adventure." class="feature-img">
+        <p class="feature-caption">Where adventure meets nature</p>     
+        </div>
+        <div class="feature">
+        <img src="images/adventure4.jpg" alt="Group of people rafting through whitewater rapids, paddling together and enjoying the adventure." class="feature-img">
+        <p class="feature-caption">Get Ready for the Ride</p>
+        </div>
+         <div class="feature">
+        <img src="images/adventure5.jpg" alt="Group of people paddling together in a whitewater raft, focused and smiling as they navigate rapids." class="feature-img">
+        <p class="feature-caption">Explore Our Trips</p>
+        </div>
     </section>
 
-    <!-- Adventure Section -->
-    <section id="adventure">
-      <h2>Adventure Awaits You</h2>
-      <div class="adventure-gallery">
-        <img src="images/adventure1.jpg" alt="Rafting Rapid 1">
-        <img src="images/adventure2.jpg" alt="Rafting Rapid 2">
-        <img src="images/adventure3.jpg" alt="Rafting Rapid 3">
-        <img src="images/adventure4.jpg" alt="Rafting Rapid 4">
-        <img src="images/adventure5.jpg" alt="Rafting Rapid 5">
-      </div>
     </section>
   </main>
 
+  <!-- FOOTER: copyright + social icons -->
   <footer>
-    <p>&copy; 2025 White Nile Rafting Limited | Africa</p>
+    <p>© 2025 | Nile White Water Limited | Samuel Okon Udo</p>
     <div class="social">
-      <a href="https://facebook.com/yourcompany" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook"></a>
-      <a href="https://instagram.com/yourcompany" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram"></a>
-      <a href="https://twitter.com/yourcompany" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+      <a href="#" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+      <a href="#" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+      <a href="#" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram"></a>
     </div>
   </footer>
+
 </body>
 </html>

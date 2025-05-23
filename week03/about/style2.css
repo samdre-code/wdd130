@@ -1,0 +1,135 @@
+/* style.css */
+html, body {
+  height: 50%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+/* Coolors palette */
+:root {
+  --primary-color:    #007acc; /* River Blue */
+  --secondary-color:  #333333; /* Dark Charcoal */
+  --accent-color:     #ff6600; /* Raft Orange */
+  --background-color: #f5f5f5; /* Soft Gray */
+  --text-color:       #333333; /* Charcoal */
+}
+
+/* Global reset & body */
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--primary-color);
+}
+.logo {
+  height: 50px; /* logo size */
+}
+nav {
+  margin-left: auto; /* pushes nav right */
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem; /* space between links */
+  font-weight: bold;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero-bg {
+  width: 100%;
+  display: block;
+}
+.hero-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+.cta-button {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.adventure-heading {
+    position: relative;     /* Enables positioning via top/left/right/bottom */
+    top: 20px;              /* Move it down 20px */
+    left: 8%;             /* Move it right 30px */
+    font-size: 2rem;        /* Optional: make it larger */
+    color: #333;            /* Optional: set a specific text color */
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.feature {
+  text-align: center;
+}
+.feature-img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+.feature-caption {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+footer p {
+  margin-bottom: 0.5rem;
+}
+.social a {
+  margin: 0 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.social img {
+  width: 32px;
+  vertical-align: middle;
+}
