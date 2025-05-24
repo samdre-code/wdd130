@@ -18,7 +18,6 @@ h1, h2 {font-family: "PT Serif", serif;}
 main { padding: 3rem;
 background-color: var(--primary-color);}
 
-
 /* HEADER */
 header {
   display: flex;
@@ -53,7 +52,7 @@ nav {margin-left: auto;}
 
 .hero-title {
   position: absolute;
-  top: 25%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: PT serif, serif;
@@ -63,7 +62,7 @@ nav {margin-left: auto;}
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--second-color);
@@ -78,7 +77,8 @@ nav {margin-left: auto;}
 
 .hero-baby {
   position: absolute;
-  bottom: 20%;
+  bottom: -1%;
+  top: 10%;
   right: -25%;
   width: 25%;
   height: auto;
@@ -90,6 +90,14 @@ nav {margin-left: auto;}
   text-align: center;
   margin-bottom: 1rem;
   font-size: 2rem;
+
+}
+
+.history-p {
+  bottom: 1%;
+  text-align: center;
+  padding: 1%;
+
 }
 
 
@@ -98,6 +106,7 @@ nav {margin-left: auto;}
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .adventure-heading {
@@ -105,6 +114,7 @@ nav {margin-left: auto;}
   color: #333;
   margin-bottom: 0rem;
   text-align: center;
+  padding: 1%;
 }
 
 .adventures {
