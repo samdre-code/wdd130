@@ -59,48 +59,43 @@ nav {margin-left: auto;}
   top: -300px;
   left: 1px;
   right: 10px;
+  width: 80%; 
+  transform: translate(10%, -50%);
+
 }
 
 .article-image {
   position: relative;
   float: right;
-  top: 0;
-  width: 20%;
+  top: 12px;
   margin: 10px;
-  height: auto;
+  width: 20%;
+  height: 120px;
   object-fit: cover;
   z-index: 1;
 
 }
 
 
-.hero article p {
-  top: 0;
-  left: 5;
-  right: 20PX;
-  padding: 40px;
-  text-align: left;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  background-image: 100px;
-  color: var(--primary-color);
-  word-wrap: break-word;
-  height: 100%;
 
+.hero article p {
+   position: absolute;
+  left: 20px;
+  right: 100px;
+  padding: 50px;
+  background-color: var(--accent1-color);
+  opacity: 0.7;
+  color: var(--primary-color);
+  text-align: left;
 }
+
+
 
 
 
 .history-heading {
   margin-bottom: 1rem;
   font-size: 2rem;
-  /* text-align: center; */
-
-}
-
-.history-p {
-  bottom: 1%;
-  padding: 1%;
   /* text-align: center; */
 
 }
