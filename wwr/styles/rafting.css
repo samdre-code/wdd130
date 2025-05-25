@@ -38,7 +38,7 @@ nav {margin-left: auto;}
 
 .hero-bg {
   width: 100%;
-  height: 100vh; /* cover the full viewport height */
+  height: 100vh; 
   object-fit: cover
 }
 
