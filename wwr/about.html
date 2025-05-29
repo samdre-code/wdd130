@@ -19,19 +19,20 @@
 
 <body>
 
-  <!-- HEADER: logo and navigation -->
-  <header>
-    <!-- Logo: links back to home -->
-    <a href="images/logo.png" class="logo-link">
+  <header class="site-header">
+    <div class="logo">
+      <a href="images/logo.png" class="logo-link">
       <img src="images/logo.png" alt="Nile White Rafting Limited logo" class="logo">
+      </a>
+    </div>
 
-    </a>
-    <!-- Nav: four links -->
-    <nav>
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="about.html" class="nav-link">About US</a>
-      <a href="trips.html" class="nav-link">Trips</a>
-      <a href="contact.html" class="nav-link">Contact Us</a>
+    <nav class="nav-container">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About US</a></li>
+        <li><a href="trips.html" class="nav-link">Trips</a></li>
+        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -39,7 +40,7 @@
     <div class="hero">
       <img src="images/rafting-hero.jpeg" alt="happy rafting" class="hero-bg">
       <h1>Nile White Rafting Limited</h1>
-      <article>
+      <article class="article">
         <img src="images/article-image.jpeg" alt="happy rafting" class="article-image">
         <p>Get ready for an adrenaline rush like no other!
           Whitewater rafting combines stunning natural
@@ -48,50 +49,68 @@
     </div>
 
 
-    <section>
-      <h2>History</h2>
-      <p>Nile White Rafting Limited has been a pioneer in adventure tourism for over a decade, offering thrilling whitewater rafting
-        experiences on the mighty Nile River. With expert guides and top-notch equipment, we've helped countless
-        adventurers create lifelong memories.
-      </p>
+    <section class="section-1">
+      <h2 class="history-heading"> History</h2>
+      <div class="history-content">
+        <p>Nile White Rafting Limited has been a pioneer in adventure tourism for over a decade, offering thrilling whitewater rafting
+          experiences on the mighty Nile River. With expert guides and top-notch equipment, we've helped countless
+          adventurers create lifelong memories.
+        </p>
+        
+        <img src="images/history.jpg" alt="Six rafters in helmets and life jackets
+         paddling a blue raft through rapids, showing teamwork and excitement on a rocky river" 
+        class="history-img">
+        
+        <p>Nile White Rafting Limited has been a pioneer in adventure tourism for over a decade, offering thrilling whitewater rafting
+          experiences on the mighty Nile River. With expert guides and top-notch equipment, we've helped countless
+          adventurers create lifelong memories.
+        </p>
+      </div>
     </section>
 
     <section>
-      <h2>Adventure Awaits You</h2>
-          <img src="images/adventure1.jpg" alt="Group of people wearing life jackets and helmets paddling together"
+
+      <h2 class="adventure-heading"> Adventure Awaits You</h2>
+      <div class="adventure-gallery">
+
+        <figure>
+          <img src="images/adventure1.jpg" alt="Group of people wearing life jackets and helmets paddling together" 
             class="adventure-img">
           <p class="adventure-caption">Experience the thrill of a lifetime</p>
-       
-      
+        </figure>
+
+        <figure>
           <img src="images/adventure2.jpg" alt="Group of people wearing life jackets and helmets paddling together"
             class="adventure-img">
           <p class="adventure-caption">Join us on the ultimate adventure</p>
-    
-      
+        </figure>  
+
+        <figure>
           <img src="images/adventure3.jpg" alt="Group of people wearing life jackets and helmets paddling together"
             class="adventure-img">
           <p class="adventure-caption">Where adventure meets nature</p>
-       
-        
+        </figure>  
+
+        <figure>
           <img src="images/adventure4.jpg" alt="Group of people wearing life jackets and helmets paddling together"
             class="adventure-img">
           <p class="adventure-caption">Get Ready for the Ride</p>
-       
+        </figure>  
 
+        <figure>
           <img src="images/adventure5.jpg" alt="Group of people wearing life jackets and helmets paddling together"
             class="adventure-img">
           <p class="adventure-caption">Explore Our Trips</p>
-       
-      </section>
-  
+        </figure> 
 
-
+      </div>
+    </section>
 
   </main>
 
-  <!-- FOOTER: copyright + social icons -->
-  <footer>
-    <p>© 2025 | Nile White Rafting Limited | Samuel Okon Udo</p>
+
+  <footer class="footer-items">
+    <p class="footer-paragraph"> © 2025 | Nile White Rafting Limited | Samuel Okon Udo</p>
     <nav class="social">
       <a href="https://facebook.com">
         <img src="images/facebook-icon.svg" alt="Facebook">
