@@ -10,7 +10,7 @@
   --body-font: "Roboto", sans-serif;
 }
 
-* main {
+main {
   padding: 20px;
   margin: 10px;
 }
@@ -68,7 +68,7 @@ nav {margin-left: auto;}
 .hero-bg {
   width: 100%;
   height: 100vh; 
-  object-fit: cover
+  object-fit: cover;
 }
 
 .hero h1 {
@@ -131,7 +131,6 @@ nav {margin-left: auto;}
   display: grid;
   grid-template-columns: 400px 200px 400px;
   grid-template-rows: auto;
-  place-items: center;
   align-items: center;
   gap: 50px;
   margin-left: 4rem;
@@ -167,8 +166,7 @@ nav {margin-left: auto;}
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1px;
-  
-  
+
 }
 
 .adventure-heading {
@@ -181,9 +179,8 @@ nav {margin-left: auto;}
 
 .adventure-img {
   display: inline-block;
-  margin-top: -3rem;
-  margin-left: -2rem;
-  width: 230px;
+  
+  width: 200px;
   height: auto;
   object-fit: cover;
   border-radius: 3px;
@@ -223,7 +220,6 @@ nav {margin-left: auto;}
   position: relative;
   float: right;
   width: 30px;
-  right: 1rem;
   margin-left: 20px;
   
 }
