@@ -25,7 +25,7 @@ h2 {
 } 
 nav {margin-left: auto;}
 
-.nav-link {color: var(--seond-color);
+.nav-link {color: var(--second-color);
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -37,7 +37,7 @@ nav {margin-left: auto;}
 
 .nav-container {
   width: fit-content;
-  margin-left: 50%;
+  margin: auto ;
   padding: 10px;
 }
 
@@ -167,7 +167,7 @@ nav {margin-left: auto;}
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1px;
-  text-align: center;
+  
   
 }
 
@@ -213,7 +213,7 @@ nav {margin-left: auto;}
 
 .footer-paragraph {
   position: relative;
-  left: 4in;
+  left: 4rem;
 
  
 
@@ -223,7 +223,7 @@ nav {margin-left: auto;}
   position: relative;
   float: right;
   width: 30px;
-  right: 1in;
+  right: 1rem;
   margin-left: 20px;
   
 }
