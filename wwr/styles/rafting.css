@@ -23,7 +23,8 @@ h2 {
 .logo {height: 60px;
   margin-left: 100px;
 } 
-nav {margin-left: auto;}
+nav {margin-left: auto;
+}
 
 .nav-link {color: var(--second-color);
   text-decoration: none;
@@ -56,6 +57,7 @@ nav {margin-left: auto;}
   align-items: center;
   gap: 20px;
   padding: 20px;
+   width: 100%;
 }
 
 
@@ -66,9 +68,9 @@ nav {margin-left: auto;}
 }
 
 .hero-bg {
-  width: 100%;
-  height: 100vh; 
   object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .hero h1 {
@@ -118,72 +120,50 @@ nav {margin-left: auto;}
   text-align: left;
 }
 
+.history-heading {
+  position: absolute;
+  text-align: center;
 
-
-
-.section-1 {
-  padding: 10px;
-  background-color: rgb(229, 226, 221);
-  
 }
 
 .history-content {
   display: grid;
-  grid-template-columns: 400px 200px 400px;
-  grid-template-rows: auto;
-  align-items: center;
-  gap: 50px;
-  margin-left: 4rem;
-  text-align: center;
-  
-  
-
+  background-color: rgb(229, 226, 221);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: 100%;
+  padding: 20px;
 }
+
 
 .history-img {
   display: block;
   margin: auto;
-  width: 200px;
-  height: 100px;
+  width: 300px;
+  height: 110px;
   object-fit: cover;
- 
-  
 }
 
-
-
-.history-heading {
-  margin-left: 28rem;
-  text-align: center;
-  margin-bottom: 1px;
-  margin-top: 1px;
-  
-}
 
 
 .adventure-gallery {
-  background-color: rgb(229, 226, 221);
   display: grid;
+  background-color: rgb(229, 226, 221);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1px;
-
+  width: 100%;
+  padding: 20px;
 }
 
 .adventure-heading {
-  margin-right: 1px;
-  margin-top: 2rem;
-  padding: 2%;
   text-align: center;
 }
 
 
 .adventure-img {
   display: inline-block;
-  
   width: 200px;
   height: auto;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 6px;
 
 }
 
@@ -191,7 +171,6 @@ nav {margin-left: auto;}
   justify-content: center;
   margin-top: 0.10rem;
   font-weight: bold;
- 
 }
 
 
@@ -200,8 +179,11 @@ nav {margin-left: auto;}
 .footer-items {
   background-color: var(--header-footer);
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+  color: var(--primary-color);
   align-items: center;
+  width: 100%;
 }
 .social a {
   margin: 1.5px;
@@ -211,6 +193,7 @@ nav {margin-left: auto;}
 .footer-paragraph {
   position: relative;
   left: 4rem;
+  text-align: right;
 
  
 
@@ -220,6 +203,6 @@ nav {margin-left: auto;}
   position: relative;
   float: right;
   width: 30px;
-  margin-left: 20px;
-  
+  right: 50px;
+  padding: 10px;
 }
