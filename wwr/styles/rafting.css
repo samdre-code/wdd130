@@ -10,7 +10,7 @@
   --body-font: "Roboto", sans-serif;
 }
 
-main {
+ main {
   margin: 4px;
   padding: 5px;
 }
@@ -63,7 +63,7 @@ nav {
 }
 
 
-/* HERO */
+
 .hero {
   position: relative;
 }
@@ -174,7 +174,7 @@ nav {
 
 
 
-/* FOOTER */
+
 .footer-items {
   display: grid;
   padding: 15px;
@@ -199,9 +199,198 @@ nav {
 }
 
 .social img {
-  width: 30px;
-  right: 50px;
+  width: 50px;
+  right: 6rem;
   float: right;
   padding: 10px;
   position: relative;
+} 
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+
+.company-info {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.company-info ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.company-info ul li {
+  margin-bottom: 5px;
+}
+
+
+.map-container {
+  margin-top: 15px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+
+.employee-profiles {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.employee-profiles h2 {
+  margin-bottom: 15px;
+}
+
+.employee-profiles .employee {
+  display: inline-block;
+  width: 30%;
+  margin: 10px 1%;
+}
+
+.employee-profiles .employee img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.employee-profiles .employee p {
+  margin-top: 10px;
+  font-family: 'PT Serif', serif;
+}
+
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form fieldset {
+  border: 1px solid #aaa;
+  padding: 15px;
+}
+
+.contact-form fieldset legend {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item.column2 {
+  flex: 1 1 45%;
+  margin-bottom: 10px;
+}
+
+.form-item.column1 {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+.form-item.column0 {
+  flex: 1 1 100%;
+}
+
+.form-item label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-wrapper input {
+  margin-right: 5px;
+}
+
+
+.button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
