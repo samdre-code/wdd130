@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="">
+    <meta name="author" content="SAMUEL OKON UDO">
+    <link rel="stylesheet" href="poll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>WD130 | HTML Form - User poll</title>
+</head>
+<body>
+    <header>
+        <h1>WD130 | SAMUEL OKON UDO | HTML Form - User poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your fullName" required>
+                </div>
+                <br>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="Enter your email" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <br>
+                <div class="form-item column0">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea name="feedback" id="feedback" rows="3" placeholder="Accra, Amsterdam, Timbuktu, Abuja"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit" class="button">Submit Poll</button>
+            
+        </form>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 | HTML Form - User Poll Activity | Samuel Okon Udo</p>
+    </footer>
+</body>
+</html> 
