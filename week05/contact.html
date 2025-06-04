@@ -36,75 +36,77 @@
     </nav>
   </header>
 
-  <main>
-    <div class="hero">
-      <img src="images/rafting-hero.jpeg" alt="happy rafting" class="hero-bg">
-      <h1>Nile White Rafting Limited</h1>
-      <article class="article">
-        <h2>Get ready for an adrenaline rush like no other!
-          Whitewater rafting combines stunning natural
-          scenery with heart-pumping action, making it an unforgettable experience.
-        </h2>
-        <img src="images/article-image.jpeg" alt="happy rafting" class="article-image">
-      </article>
-    </div>
-
-
-    <section>
-      <h2 class="history-heading"> History</h2>
-      <div class="history-content">
-        <p class="history-paragraph">Nile White Rafting Limited has been a pioneer in adventure tourism for over a decade, offering thrilling whitewater rafting
-          experiences on the mighty Nile River. With expert guides and top-notch equipment, we've helped countless
-          adventurers create lifelong memories.
-        </p>
-        
-        <img src="images/history.jpg" alt="Six rafters in helmets and life jackets
-         paddling a blue raft through rapids, showing teamwork and excitement on a rocky river" 
-        class="history-img">
-
-        <p class="history-paragraph">Nile White Rafting Limited has been a pioneer in adventure tourism for over a decade, offering thrilling whitewater rafting
-          experiences on the mighty Nile River. With expert guides and top-notch equipment, we've helped countless
-          adventurers create lifelong memories.
-        </p>
+   <main>
+    <!-- Company Information Section -->
+    <section class="company-info">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> 177 Huntington Ave, Ste 1703</p>
+      <p><strong>Phone:</strong> +1-617-555-0108</p>
+      <p><strong>Email:</strong> <a href="mailto:contact-us@company.com">contact-us@company.com</a></p>
+      <div class="map">
+        <!-- Remove inline styles from embed code when moving to CSS -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0195325382314!2d-122.08218118436476!3d37.422065979825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7531dda7fb1%3A0x4d2c9c41b452f4af!2sGoogleplex!5e0!3m2!1sen!2sus!4v1594626658493!5m2!1sen!2sus" 
+          allowfullscreen=""
+          title="Company Location">
+        </iframe>
       </div>
     </section>
 
-    <section>
-      <div class="adventure-content"></div>
-      <h2 class="adventure-heading"> Adventure Awaits You</h2>
-      <div class="adventure-gallery">
-        <figure>
-          <img src="images/adventure1.jpg" alt="Group of people wearing life jackets and helmets paddling together" 
-            class="adventure-img">
-          <p class="adventure-caption">Adventure</p>
-        </figure>
-
-        <figure>
-          <img src="images/adventure2.jpg" alt="Group of people wearing life jackets and helmets paddling together"
-            class="adventure-img">
-          <p class="adventure-caption">Adventure</p>
-        </figure>  
-
-        <figure>
-          <img src="images/adventure3.jpg" alt="Group of people wearing life jackets and helmets paddling together"
-            class="adventure-img">
-          <p class="adventure-caption">Adventure</p>
-        </figure>  
-
-        <figure>
-          <img src="images/adventure4.jpg" alt="Group of people wearing life jackets and helmets paddling together"
-            class="adventure-img">
-          <p class="adventure-caption">Adventure</p>
-        </figure>  
-
-        <figure>
-          <img src="images/adventure5.jpg" alt="Group of people wearing life jackets and helmets paddling together" 
-          class="adventure-img">
-          <p class="adventure-caption">Adventure</p>
-        </figure> 
+    <!-- Employee Profiles Section -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="employee">
+        <img src="employee1.jpg" alt="Trip Coordinator">
+        <p>Trip Coordinator</p>
+      </div>
+      <div class="employee">
+        <img src="employee2.jpg" alt="Manager">
+        <p>Manager</p>  
+      </div>
+      <div class="employee">
+        <img src="employee3.jpg" alt="Guide">
+        <p>Guide</p>
       </div>
     </section>
 
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form method="post" action="process_form.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+          <legend>Purpose of the Message:</legend>
+          <label>
+            <input type="radio" name="message-purpose" value="general" checked>
+            General Inquiry
+          </label>
+          <label>
+            <input type="radio" name="message-purpose" value="reservation">
+            Reservation Question
+          </label>
+          <label>
+            <input type="radio" name="message-purpose" value="suggestion">
+            Website Suggestion
+          </label>
+        </fieldset>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label class="newsletter">
+          <input type="checkbox" name="newsletter">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   </main>
 
 
