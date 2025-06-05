@@ -81,8 +81,9 @@
 
     <!-- Contact Form Section -->
     <section class="contact-form">
-      <fieldset>
-        <legend>Contact Information</legend>
+      <form action="">
+        <fieldset>
+          <legend>Contact Information</legend>
           <div class="form-item column2">
             <label for="fullName">Full Name:</label>
             <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
@@ -91,16 +92,11 @@
             <label for="userEmail">Email:</label>
             <input type="email" id="userEmail" name="userEmail" placeholder="Enter your email" required>
           </div>
-      </fieldset>
-    </section>
-
-    <!-- Message Details -->
-    <section>
-      <form>
+        </fieldset>
         <fieldset>
           <legend>Questions</legend>
           <div class="form-item column1">
-            <label for="messagePurpose">Purpose of the Message:</label>
+          <label for="messagePurpose">Purpose of the Message:</label>
             <div class="radio-group">
               <label>
                 <input type="radio" name="messagePurpose" value="general" checked>
