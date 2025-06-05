@@ -179,11 +179,6 @@ nav {
 
 
 
-
-
-
-
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
@@ -199,19 +194,17 @@ header {
   text-align: center;
 }
 
-header h1 {
+header h1, .contact-title {
   font-family: var(--heading-font);
-  
+  text-align: center;
 }
 
  
-
-
 .company-info {
-  background: #fff; 
-  padding: 20px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
+  /* background: #fff;  */
+  padding: 2px;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 2px;
 }
 
 .company-info ul {
@@ -229,9 +222,10 @@ header h1 {
 }
 
 .map-container iframe {
-  width: 100%;
-  height: 200px;
+  width: 6%;
+  height: 2px;
   border: none;
+  /* border: 1px solid #ccc; */
 }
 
 
@@ -239,44 +233,46 @@ header h1 {
   display: grid;
   text-align: center;
   grid-template-columns: repeat(2, 12rem);
-  border: 1px solid #ccc;
-  bottom: 50px;
-  margin-right: 50rem;
+  /* border: 1px solid #ccc; */
+  bottom: 0px;
+  gap: 60px;
 
 }
 
 
 .employee-profiles-title {
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  left:8.125rem;
+  top: 40px;
+ 
   
 }
 
 
 .employee-profiles img {
-  width: 200px;
+  width: 250px;
   height: auto;
-  border-radius: 1%;
-  padding: 15px;
+  padding: 1px;
+  
 }
 
 
 .contact-form {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #fff;
+  /* background: #fff; */
   padding: 2px;
-  border: 1px solid #ccc;
   margin-bottom: 2px;
-  text-align: center;
-  margin-left: 30rem;
-  bottom: 200rem;
+  text-align: left;
+  margin-left: 10rem;
+  left: 30rem;
+  bottom: 45rem;
 }
 
 .contact-form fieldset {
   border: 1px solid #aaa;
   padding: 15px;
-  text-align: left;
 }
 
 fieldset legend {
