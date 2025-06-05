@@ -269,18 +269,28 @@ header h1 {
 }
 
 
-.employee-profiles {
+.employee-profiles  {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background: #fff; 
+  text-align: center;
+  grid-template-columns: repeat(2, 12rem);
+  border: 1px solid #ccc;
+  bottom: 50px;
 
 }
 
 
+.employee-profiles-title {
+  position: absolute;
+  bottom: 50px;
+  
+}
+
+
 .employee-profiles img {
-  width: 100px;
+  width: 200px;
   height: auto;
   border-radius: 1%;
+  padding: 15px;
 }
 
 
