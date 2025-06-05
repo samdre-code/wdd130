@@ -10,9 +10,10 @@
   --body-font: "Roboto", sans-serif;
 }
 
- main {
-  margin: 4px;
+* {
+  margin: 5px;
   padding: 5px;
+  box-sizing: border-box;
 }
 
 h1, h2, p{
@@ -175,36 +176,6 @@ nav {
 
 
 
-.footer-items {
-  display: grid;
-  padding: 15px;
-  width: 100%;
-  align-items: center;
-  color: var(--primary-color);
-  grid-template-columns: 1fr 1fr;
-  background-color: var(--header-footer);
-}
-.social a {
-  margin: 1.5px;
-  text-decoration: none;
-} 
-
-.footer-paragraph {
-  left: 4rem;
-  text-align: right;
-  position: relative;
-
- 
-
-}
-
-.social img {
-  width: 50px;
-  right: 6rem;
-  float: right;
-  padding: 10px;
-  position: relative;
-}
 
 
 
@@ -212,11 +183,6 @@ nav {
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -302,8 +268,6 @@ contact-form {
   text-align: right;
 } 
 
-
-
 .contact-form fieldset {
   border: 1px solid #aaa;
   padding: 15px;
@@ -380,4 +344,37 @@ label {
 
 .button:hover {
   background-color: #0056b3;
-} */
+}
+
+
+
+.footer-items {
+  display: grid;
+  padding: 15px;
+  width: 100%;
+  align-items: center;
+  color: var(--primary-color);
+  grid-template-columns: 1fr 1fr;
+  
+}
+.social a {
+  margin: 1.5px;
+  text-decoration: none;
+} 
+
+.footer-paragraph {
+  left: 4rem;
+  text-align: right;
+  position: relative;
+
+ 
+
+}
+
+.social img {
+  width: 50px;
+  right: 6rem;
+  float: right;
+  padding: 10px;
+  position: relative;
+}
