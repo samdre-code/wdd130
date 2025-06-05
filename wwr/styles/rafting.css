@@ -241,6 +241,7 @@ header h1 {
   grid-template-columns: repeat(2, 12rem);
   border: 1px solid #ccc;
   bottom: 50px;
+  margin-right: 50rem;
 
 }
 
@@ -260,13 +261,17 @@ header h1 {
 }
 
 
-contact-form {
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: #fff;
   padding: 2px;
   border: 1px solid #ccc;
   margin-bottom: 2px;
-  text-align: right;
-} 
+  text-align: center;
+  margin-left: 30rem;
+  bottom: 200rem;
+}
 
 .contact-form fieldset {
   border: 1px solid #aaa;
