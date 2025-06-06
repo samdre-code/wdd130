@@ -215,6 +215,11 @@ header h1, .contact-title {
   margin-bottom: 5px;
 }
 
+.company-info-icon {
+  position: relative;
+  top: 12px;
+
+}
 
 .map-container {
   margin-top: 15px;
@@ -255,16 +260,11 @@ header h1, .contact-title {
 .contact-form {
   position: absolute;
   top: 600px;
-  right: 20px;
+  right: 200px;
   display: grid;
   grid-template-columns: 30rem;
-  /* background: #fff; */
   padding: 20px;
-  margin-bottom: 2px;
-  text-align: left;
-  /* margin-left: 10rem;
-  left: 35rem; */
-  /* bottom: 60rem; */
+  text-align: center;
 }
 
 fieldset legend {
@@ -274,6 +274,7 @@ fieldset legend {
 
 
 .form-item.column2 {
+  text-align: left;
   flex: 1 1 45%;
   margin-bottom: 10px;
 }
