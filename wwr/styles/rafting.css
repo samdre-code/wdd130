@@ -178,7 +178,6 @@ nav {
 
 
 
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
@@ -222,20 +221,19 @@ header h1, .contact-title {
 }
 
 .map-container iframe {
-  width: 6%;
-  height: 2px;
-  border: none;
+ 
   /* border: 1px solid #ccc; */
+   width: 50%;
+  height: 200px;
+  border: none;
 }
 
 
 .employee-profiles  {
   display: grid;
   text-align: center;
-  grid-template-columns: repeat(2, 12rem);
+  grid-template-columns: repeat(2, 20rem);
   /* border: 1px solid #ccc; */
-  bottom: 0px;
-  gap: 60px;
 
 }
 
@@ -244,46 +242,34 @@ header h1, .contact-title {
   position: relative;
   left:8.125rem;
   top: 40px;
- 
-  
 }
 
 
 .employee-profiles img {
-  width: 250px;
+  width: 300px;
   height: auto;
   padding: 1px;
-  
 }
 
 
 .contact-form {
-  position: relative;
+  position: absolute;
+  top: 600px;
+  right: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30rem;
   /* background: #fff; */
-  padding: 2px;
+  padding: 20px;
   margin-bottom: 2px;
   text-align: left;
-  margin-left: 10rem;
-  left: 30rem;
-  bottom: 45rem;
-}
-
-.contact-form fieldset {
-  border: 1px solid #aaa;
-  padding: 15px;
+  /* margin-left: 10rem;
+  left: 35rem; */
+  /* bottom: 60rem; */
 }
 
 fieldset legend {
   font-weight: bold;
-  padding: 0 5px;
-}
-
-.map-container iframe {
-  width: 300px;
-  height: 200px;
-  border: none;
+  padding: 10px;
 }
 
 
@@ -319,6 +305,7 @@ label {
 .radio-group label {
   display: inline-block;
   margin-right: 15px;
+  padding: 5px;
   font-weight: normal;
 }
 
@@ -348,7 +335,6 @@ label {
 }
 
 
-
 .footer-items {
   display: grid;
   padding: 15px;
@@ -369,7 +355,6 @@ label {
   position: relative;
 
  
-
 }
 
 .social img {

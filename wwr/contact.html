@@ -45,13 +45,14 @@
     <section class="company-info">
       <h2>Contact Information</h2>
       <ul>
-        <li><strong>Address:</strong> 177 Huntington Ave, Ste 1703</li>
+        <!-- <li><img src="images/gps.png" alt="" width="50" height="50"></li> -->
+        <li><img src="images/gps.png" alt="" width="30" height="30"><strong>Address:</strong> 177 Huntington Ave, Ste 1703</li>
         <li><strong>Phone:</strong> +1-617-555-0108</li>
         <li><strong>Email:</strong> <a href="mailto:contact-us@company.com">contact-us@NileWhiteRaftingLimited.com</a></li>
       </ul>
       <div class="map-container">
         <!-- Embedded Google Map -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0195325382314!2d-122.08218118436476!3d37.422065979825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7531dda7fb1%3A0x4d2c9c41b452f4af!2sGoogleplex!5e0!3m2!1sen!2sus!4v1594626658493!5m2!1sen!2sus" title="Company Location">
+        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0195325382314!2d-122.08218118436476!3d37.422065979825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7531dda7fb1%3A0x4d2c9c41b452f4af!2sGoogleplex!5e0!3m2!1sen!2sus!4v1594626658493!5m2!1sen!2sus" title="Company Location">
         </iframe>
       </div>
     </section>
@@ -105,6 +106,7 @@
        
               <div class="form-item column0">
                 <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                <button type="submit" class="button">Submit Message</button>
               </div>
               <div class="form-item column1">
                 <label for="newsletter" class="checkbox-wrapper">
@@ -112,7 +114,6 @@
                 </label>
               </div>
           </fieldset>
-        <button type="submit" class="button">Submit Message</button>
       </form>
     </section>
   </main>
