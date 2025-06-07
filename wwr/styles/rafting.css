@@ -16,7 +16,8 @@
   box-sizing: border-box;
 }
 
-h1, h2, p{
+h1, h2, p, body{
+  font-family: var(--body-font);
   color: var(--second-color);
 }
 
@@ -55,7 +56,7 @@ nav {
 
 .site-header {
   gap: 20px;
-  width: 100%;
+  width: 90%;
   display: grid;
   padding: 20px;
   align-items: center;
@@ -70,7 +71,7 @@ nav {
 }
 
 .hero-bg {
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: cover;
 }
@@ -80,8 +81,8 @@ nav {
   left: 0;
   right: 0;
   top: 15px;
-  opacity: 0.7;
-  padding: 10px;
+  opacity: 0.5;
+  width: 90%;
   text-align: center;
   font-family: var(--heading-font);
   background-color: var(--header-footer);
@@ -122,15 +123,22 @@ nav {
 
 .history-heading {
   text-align: center;
+  font-family: var(--heading-font);
 }
 
-.history-content {
-  width: 100%;
+.history-container {
+  width: 90%;
   display: grid;
   background-color: rgb(229, 226, 221);
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+history-container  {
+  grid-column: 1 / 4;
+}
+history-container  {
+  grid-column: 1 / 4;
+}
 
 .history-img {
   display: block;
@@ -146,7 +154,7 @@ nav {
 
 
 .adventure-gallery {
-  width: 100%;
+  width: 90%;
   padding: 20px;
   display: grid;
   background-color: rgb(229, 226, 221);
@@ -155,6 +163,7 @@ nav {
 
 .adventure-heading {
   text-align: center;
+  font-family: var(--heading-font);
 }
 
 
@@ -163,28 +172,12 @@ nav {
   height: auto;
   object-fit: cover;
   border-radius: 6px;
-  display: inline-block;
 
 }
 
 .adventure-caption {
-  margin-top: 0.10rem;
-  font-weight: bold;
-  justify-content: center;
+  text-align: center;
 }
-
-
-
-
-
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
-
 
 header {
   background-color: #003366;
@@ -198,10 +191,11 @@ header h1, .contact-title {
   text-align: center;
 }
 
- 
+.company-info-h2 {
+font-family: var(--heading-font);
+}
 .company-info {
   padding: 2px;
-  /* border: 1px solid #ccc; */
   margin-bottom: 2px;
 }
 
@@ -226,27 +220,30 @@ header h1, .contact-title {
   border: none;
 }
 
+.employee-profiles-title {
+  position: relative;
+  font-family: var(--heading-font);
+  left: 15rem;
+  top: 35px;
+}
 
 .employee-profiles  {
   display: grid;
-  grid-template-columns: repeat(2, 20rem);
-  text-align: center;
-  /* border: 1px solid #ccc; */
-
+  padding-left: 50px;
+  grid-template-columns: repeat(2, 15.5rem);
+  background-color: #fff; 
 }
 
-
-.employee-profiles-title {
-  position: relative;
-  left: 15rem;
-  top: 10px;
+.employee-name {
+  text-align: center;
+  font-weight: bolder;
+  word-wrap: break-word;
 }
 
 
 .employee-profiles img {
-  width: 300px;
+  width: 250px;
   height: auto;
-  padding: 1px;
 }
 
 
@@ -256,13 +253,14 @@ header h1, .contact-title {
   right: 00px;
   display: grid;
   grid-template-columns: 30rem;
-  padding: 20px;
+  padding-right: 200px;
   text-align: center;
 }
 
 fieldset legend {
   font-weight: bold;
   padding: 10px;
+  font-family: var(--heading-font);
 }
 
 
@@ -340,15 +338,16 @@ label {
 }
 
 
-.footer-items {
+.footer-container {
   display: grid;
   padding: 15px;
-  width: 100%;
+  width: 90%;
   align-items: center;
   color: var(--primary-color);
-  grid-template-columns: 1fr 1fr;
-  
+  grid-template-columns: 50px 1fr 1fr;
+  border-top: 1px solid #aaa;
 }
+
 .social a {
   margin: 1.5px;
   text-decoration: none;
