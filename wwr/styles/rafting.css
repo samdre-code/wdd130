@@ -130,15 +130,10 @@ nav {
   width: 90%;
   display: grid;
   background-color: rgb(229, 226, 221);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  top: 30px;
 }
 
-history-container  {
-  grid-column: 1 / 4;
-}
-history-container  {
-  grid-column: 1 / 4;
-}
 
 .history-img {
   display: block;
