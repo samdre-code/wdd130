@@ -249,7 +249,7 @@ font-family: var(--heading-font);
 
 .contact-form {
   position: absolute;
-  top: 600px;
+  top: 490px;
   right: 00px;
   display: grid;
   grid-template-columns: 30rem;
