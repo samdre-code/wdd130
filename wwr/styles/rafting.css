@@ -5,7 +5,7 @@
   --second-color:    #000000; /* black */
   --accent1-color:   #ff6600; /* Pumpkin*/
   --accent2-color:   #ffcc00; /* Jonquil*/
-  --header-footer:   #007AD7;
+  --header-footer:   #4697d5;
   --heading-font: "PT Serif", serif;
   --body-font: "Roboto", sans-serif;
 }
@@ -38,7 +38,7 @@ nav {
   color: var(--second-color);
 }
 .nav-link.active, .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--second-color);
   
 }
 
@@ -61,13 +61,15 @@ nav {
   padding: 20px;
   align-items: center;
   grid-template-columns: auto 1fr;
-  background-color: var(--header-footer);
+  border-bottom: 1px solid #aaa;
+  /* background-color: var(--header-footer); */
 }
 
 
 
 .hero {
   position: relative;
+  height: 100vh;
 }
 
 .hero-bg {
@@ -85,7 +87,7 @@ nav {
   width: 90%;
   text-align: center;
   font-family: var(--heading-font);
-  background-color: var(--header-footer);
+
 }
 
 .hero article {
@@ -173,12 +175,7 @@ nav {
   text-align: center;
 }
 
-header {
-  background-color: #003366;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-}
+
 
 header h1, .contact-title {
   font-family: var(--heading-font);
@@ -328,7 +325,7 @@ label {
 }
 
 .button:hover {
-  background-color: #0077ff;
+  background-color: var(--header-footer);
 }
 
 
