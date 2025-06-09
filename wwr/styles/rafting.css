@@ -23,7 +23,7 @@ h1, h2, p, body{
 
 
 .logo {
-  height: 100px;
+  height: 90px;
   margin-left: 20px;
 } 
 
@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--second-color);
@@ -58,7 +58,6 @@ nav {
   gap: 20px;
   width: 90%;
   display: grid;
-  padding: 20px;
   align-items: center;
   grid-template-columns: auto 1fr;
   border-bottom: 1px solid #aaa;
@@ -72,58 +71,55 @@ nav {
   height: 100vh;
 }
 
-.hero-bg {
+.hero-image {
   width: 90%;
   height: auto;
   object-fit: cover;
 }
 
 .hero h1 {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 15px;
+  top: 90px;
   opacity: 0.5;
   width: 90%;
   text-align: center;
+  background-color: var(--primary-color);
   font-family: var(--heading-font);
 
 }
 
 .hero article {
-  width: 80%; 
-  top: -300px;
-  right: 10px;
+  width: 58%;
+  height: 21%; 
+  bottom: 35%;
   position: relative;
-  transform: translate(10%, -50%);
-
+  left: 28%;
+  background-color: var(--primary-color);
 }
 
 
 .article-image {
-  top: 17px;
   float: right;
-  width: 200px;
+  width: 150px;
   height: auto;
+  top: 22px;
   object-fit: cover;
   position: relative;
+
 
 }
 
 
 
 .hero article h2 {
-  left: 20px;
-  opacity: 0.6;
-  right: 100px;
-  padding: 20px;
-  font-size: 2rem;
-  text-align: left;
+  font-size: 1rem;
   position: absolute;
-  background-color: var(--primary-color);
 }
 
 .history-heading {
+  grid-column: span 3;
   text-align: center;
   font-family: var(--heading-font);
 }
@@ -140,39 +136,49 @@ nav {
   display: block;
   margin: auto;
   width: 250px;
-  height: auto;
+  height: 150px;
   object-fit: cover;
 }
 
 .history-paragraph {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 
-.adventure-gallery {
-  width: 90%;
-  padding: 20px;
+.adventure-container {
   display: grid;
-  background-color: rgb(229, 226, 221);
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
 }
 
 .adventure-heading {
+  grid-column: span 5;
   text-align: center;
   font-family: var(--heading-font);
+} 
+
+.adventure-gallery {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  display: grid;
+  background-color: rgb(229, 226, 221);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr;
 }
+
+
 
 
 .adventure-img {
-  width: 200px;
+  width: 150px;
   height: auto;
   object-fit: cover;
-  border-radius: 6px;
-
 }
 
 .adventure-caption {
-  text-align: center;
+  bottom: 20px;
+  position: relative;
+
 }
 
 
@@ -332,6 +338,7 @@ label {
 .footer-container {
   display: grid;
   padding: 15px;
+  margin-top : 20px;
   width: 90%;
   align-items: center;
   color: var(--primary-color);
