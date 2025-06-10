@@ -64,8 +64,42 @@ nav {
   /* background-color: var(--header-footer); */
 }
 
+/* HOME PAGE */
+.home-hero {
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  
+}
+
+.home-h1 {
+  position: absolute;
+  bottom: 100px;
+  width: 80%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: var(--heading-font);
+
+}
 
 
+.home-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  align-self: center;
+}
+
+.home-button:hover {
+  background-color: var(--header-footer);
+}
+
+
+/* ABOUT US PAGE */
 .hero {
   position: relative;
   height: 100vh;
