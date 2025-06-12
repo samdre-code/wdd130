@@ -51,25 +51,22 @@ nav {
 }
 
 .nav-container {
-  margin: auto;
-  padding: 10px;
-  width: fit-content;
+
 }
 
 .nav-list {
-  gap: 20px;
   display: flex;
   list-style: none;
 }
 
 .site-header {
-  gap: 20px;
+  gap: 100px;
   width: 100%;
   display: grid;
   align-items: center;
   grid-template-columns: auto 1fr;
   border-bottom: 1px solid #aaa;
-  /* background-color: var(--header-footer); */
+  background-color: var(--header-footer);
 }
 
 /* HOME PAGE */
@@ -88,11 +85,14 @@ nav {
 .home-h1 {
   position: relative;
   bottom: 30rem;
-  width: 100%;
+  width: 50%;
   text-align: center;
   align-items: center;
   font-size: 3rem;
+  opacity: 0.7;
+  left: 25%;
   font-family: var(--heading-font);
+  background-color: var(--primary-color);
 
 }
 
@@ -107,6 +107,8 @@ nav {
   font-weight: bold;
   transition: background-color 0.3s ease;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  left: 45%;
 }
 
 .home-cta-button:hover {
@@ -181,7 +183,6 @@ nav {
 .home-legend {
   font-size: 1.8em;
   font-weight: bold;
-  color: #0077b6;
   text-align: center;
 }
 
@@ -482,7 +483,6 @@ label {
 
 
 .button {
-  background-color: var(--second-color);
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -490,6 +490,8 @@ label {
   cursor: pointer;
   width: 200px;
   align-self: center;
+  transition: background-color 0.3s ease;
+  background-color: var(--second-color);
 }
 
 .button:hover {
@@ -497,28 +499,28 @@ label {
 }
 
 /* TRIPS PAGE */
-.trips-hero {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
+.trips-hero img {
+  position: relative;
+    width: 100%;
 }
 
 .trip-first-section h1 {
   position: relative;
   top: 20rem;
+  left: 25%;
   font-size: 3rem;
   text-align: center;
+  width: 50%;
+  opacity: 0.7;
   font-family: var(--heading-font);
+  background-color: var(--primary-color);
 }
 
-.trips-hero img {
-    width: 100%;
-}
+
 
 .trips-cta-button {
   position: relative;
     display: block;
-    background-color: var(--second-color);
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -528,6 +530,8 @@ label {
     font-size: 30px;
     border-radius: 5px;
     bottom: 15rem;
+    transition: background-color 0.3s ease;
+    background-color: var(--second-color);
 }
 
 .trips-cta-button:hover {
@@ -540,15 +544,13 @@ label {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr auto; 
   gap: 10px;justify-content: space-between;
-  background-color: lightblue;
+  background-color: rgb(240, 244, 245);
   padding: 20px;
   text-align: center;
 }
-
-.trips-h2 {
-  top: 100px;
+.trip-second-section h2 {
+  text-align: center;
 }
-
 .trip-fig {
   position: relative;
   bottom: 30px;
