@@ -71,7 +71,6 @@ nav {
 
 /* HOME PAGE */
 .home-hero-container {
-  display: flexbox;
   gap: 20px;
 }
 
