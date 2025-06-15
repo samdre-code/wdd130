@@ -213,6 +213,23 @@ input:focus {
 }
 
 
+.home-signup-button {
+  padding: 12px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: var(--second-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.home-signup-button:hover {
+  background-color: var(--accent1-color);
+}
+
+
 
 
 
