@@ -27,10 +27,8 @@ body {
   color: var(--second-color);
 }
 
-
-.logo {
-  height: 90px;
-  margin-left: 20px;
+header img {
+  width: 100px;
 }
 
 nav {
@@ -50,9 +48,6 @@ nav {
 
 }
 
-.nav-container {
-
-}
 
 .nav-list {
   display: flex;
