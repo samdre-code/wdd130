@@ -514,18 +514,18 @@ label {
 
 .trips-cta-button {
   position: relative;
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    margin: 20px auto;
-    width: fit-content;
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 5px;
-    bottom: 15rem;
-    transition: background-color 0.3s ease;
-    background-color: var(--second-color);
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: fit-content;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5px;
+  bottom: 15rem;
+  transition: background-color 0.3s ease;
+  background-color: var(--second-color);
 }
 
 .trips-cta-button:hover {
