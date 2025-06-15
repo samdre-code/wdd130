@@ -23,7 +23,7 @@ h1,
 h2,
 p,
 body {
-  font-family: var(--body-font);
+  font-family: var(--body-font, Arial, sans-serif);
   color: var(--second-color);
 }
 
