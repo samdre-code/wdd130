@@ -214,6 +214,7 @@ input:focus {
 
 
 .home-signup-button {
+  position: relative;
   padding: 12px 20px;
   font-size: 1.2em;
   font-weight: bold;
@@ -222,6 +223,7 @@ input:focus {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  left: 150px;
   transition: background 0.3s ease-in-out;
 }
 
