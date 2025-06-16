@@ -432,17 +432,13 @@ header h1,
 }
 
 
-.employee-name {
+.employee-profiles-title {
   text-align: center;
   font-weight: bolder;
   word-wrap: break-word;
 }
 
 
-.employee-profiles img {
-  width: 250px;
-  height: auto;
-}
 
 
 .contact-form {
@@ -454,6 +450,11 @@ header h1,
   grid-template-columns: 30rem;
   padding-right: 200px;
   text-align: center;
+}
+
+.employee-profiles img {
+  width: 250px;
+  height: auto;
 }
 
 fieldset legend {
