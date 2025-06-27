@@ -35,35 +35,35 @@
   </header>
 
   <main>
-    <section class="home-hero-container">
-      <div>
-        <img src="images/home-hero.jpeg" alt="happy rafting" class="home-hero">
-        <h1 class="home-h1">Welcome to Nile White Rafting Limited</h1>
-        <button type="button" class="home-cta-button" onclick="window.location.href='trips.html';">Explore Trips</button>
+    <section>
+      <div class="home">
+        <h1>Welcome to Nile White Rafting Limited</h1>
+        <img src="images/home-hero.jpeg" alt="happy rafting" class="home-hero-img">
       </div>
+      <button type="button" class="home-cta-button" onclick="window.location.href='trips.html';">Explore Trips</button>
     </section>
 
-    <section class="welcome">
+    <section>
       <div class="grid-container">
-        <div class="purpose">
-            <h3>Our Purpose</h3>
+        <div class="item-1">
+            <h3 class="sec2-h3">Our Purpose</h3>
             <p>At Nile White Rafting Limited, we're passionate about providing thrilling whitewater rafting experiences that connect you with nature and create lifelong memories. Our expert team is dedicated to ensuring your safety and enjoyment on the water.</p>
-            <img class="home-section-img" src="images/home-image1.jpg" alt="Group of rafters navigating a rapid">
+            <img class="item-img" src="images/home-image1.jpg" alt="Group of rafters navigating a rapid">
         </div>
       
-        <div class="offerings">
-          <h3>Our Offerings</h3>
+        <div class="item-2">
+          <h3 class="sec2-h3">Our Offerings</h3>
           <ul>
             <li>Guided whitewater rafting trips for all skill levels</li>
             <li>Expert instruction and equipment</li>
             <li>Scenic river routes with breathtaking views</li>
             <li>Opportunities to spot wildlife and enjoy the natural beauty of the river</li>
           </ul>
-          <img class="home-section-img" src="images/home-image2.jpg" alt="Close-up of a raft navigating a rapid">
+          <img class="item-img" src="images/home-image2.jpg" alt="Close-up of a raft navigating a rapid">
         </div>
     
-        <div class="unique">
-          <h3>What Sets Us Apart</h3>
+        <div class="item-3">
+          <h3 class="sec2-h3">What Sets Us Apart</h3>
           <ul>
             <li>Experienced and certified guides</li>
             <li>Small group sizes for personalized attention</li>
@@ -73,27 +73,27 @@
       </div>
     </section>
 
-    <section class="home-newsletter">
-      <form class="home-form">
-        <h6 class="visually-hidden">Newsletter Signup</h6>
+    <section>
+      <form class="home-newsletter">
+          <h6 class="visually-hidden">Newsletter Signup</h6>
           <fieldset class="home-fieldset">
             <legend class="home-legend">Sign Up For Our Newsletter</legend>
-              <div class="home-form-item column">
+              <div class="home-form-item">
                 <label for="fullName">Full Name:</label>
                 <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
               </div>
-              <div class="home-form-item column">
+              <div class="home-form-item">
                 <label for="userEmail">Email:</label>
                 <input type="email" id="userEmail" name="userEmail" placeholder="Enter your email" required>
               </div>
-          </fieldset>
-          <label for="preferences">
-            <input type="checkbox" id="preferences" name="preferences">
-            Receive exclusive adventure updates
-          </label>
-
-          <button type="submit" class="home-signup-button">Sign Up</button>
-
+              <div class="home-form-item">
+                <label for="preferences">
+                  <input type="checkbox" id="preferences" name="preferences">
+                  Receive exclusive adventure updates
+                </label>
+                <button type="submit" class="home-signup-button">Sign Up</button>
+              </div>
+            </fieldset>
       </form>
     </section>
 
