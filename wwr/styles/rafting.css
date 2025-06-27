@@ -236,8 +236,8 @@ input:focus {
     padding: 1rem;
   }
 
-  .history,
-  .adventure {
+  .history-container,
+  .adventure-container {
     width: 100%;
     text-align: center;
   }
